@@ -1,0 +1,6 @@
+{
+  "/api/tutorials": {
+    "target": "http://localhost:7777/api/tutorials",
+    "secure": false
+  }
+}

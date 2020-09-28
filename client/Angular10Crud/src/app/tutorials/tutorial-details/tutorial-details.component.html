@@ -1,0 +1,15 @@
+<h4>Tutorial</h4>
+<div class="row">
+	<div class="col-md-12"><label><strong>Title :</strong></label> {{ currentTutorial.title }}</div>
+</div>
+<div class="row">
+	<div class="col-md-12"><label><strong>Description :</strong></label> {{ currentTutorial.description }}</div>
+</div>
+<div class="row">
+	<div class="col-md-12"><label><strong>Status :</strong></label> {{ currentTutorial.published ? "Published" : "Pending" }}</div>
+</div>
+<div class="row">
+	<div class="col-md-12"><a href="javascript:void(0)" class="btn btn-warning" role="button" (click)="onEdit()">EDIT</a></div>
+</div>
+
+
